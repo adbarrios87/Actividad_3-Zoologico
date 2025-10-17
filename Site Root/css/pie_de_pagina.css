@@ -1,9 +1,8 @@
 #footer_principal .content_principal{
     height: 100%;
-    font-size: 12px;
-    background-color: rgba(184, 187, 187, 0.2);
-    border-left: 1px dashed #666;
-    border-right: 1px dashed #666;
+    color:#875316;
+    font-size: 10px;
+   
 }
 #footer_principal .logo,
 #footer_principal address,
@@ -15,30 +14,36 @@
     margin-top: 45px;
     width: 132px;
     height: 170px;
-    border: 1px solid #666 ;
-    background-image: url(../assets/logo2.png);
+    background-image: url(../assets/logo_footer.png);
 }
 #footer_principal address,
 #footer_principal blockquote{
     margin-top: 70px;
-    background-color: rgba(184, 187, 187, 0.5);
 }
 #footer_principal address{
     margin-left: 50px;
-    border: 1px solid #666;
+    width: auto;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 #footer_principal blockquote{
+    
     width: 363px;
     font-style: italic;
     text-align: right;
     float: right;
-    border: 1px solid #666;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    background-image: url(../assets/comillas.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-position: right top;
 }
 #footer_principal .linea{
     position: relative;
     float: left;
     width: 510px;
-    border-bottom: 1px dashed #666;
+    border-bottom: 1px dashed #C7AB76;
     margin-top: 44px;
     margin-left: 50px;
 }
@@ -46,10 +51,10 @@
     position:relative;
     float:left;
     width: 510px;
+    font-size: 11px;
     text-align: center;
     margin-top: 23px;
-    font-size: 12px;
     margin-left: 50px;
-    border: 1px solid #666;
-    background-color: rgba(184, 187, 187, 0.5);
+    font-weight: bold;
+    
 }

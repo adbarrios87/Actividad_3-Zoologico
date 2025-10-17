@@ -1,3 +1,4 @@
+
 #nav_principal ul{
     position:relative;
     float: right;
@@ -15,10 +16,18 @@
 #nav_principal ul li a{
     top: 10px;
     position: relative;
-    font-size: 15px;
-    color: black;
+    color:blanchedalmond;
+    font-size: 12px;
+    text-decoration: none;
 }
 #nav_principal ul li.activo a, 
 #nav_principal ul li :hover a {
-    color: blue;
+    color: #875316;
+}
+.activo{
+   position: relative;
+    padding: 0px 10px 0px 10px;
+    color: #875316;
+    background-image: url(../assets/bgm.png);
+    background-size: cover;   
 }

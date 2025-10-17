@@ -9,8 +9,8 @@
 #header_principal .logo{
     width: 245px;
     height: 246px;
-    border: 1px solid #666;
-    background-image: url(../assets/logo1.png);
+    border: none;
+    background-image: url(../assets/logo.png);
 }
 #header_principal form{
     position: relative;
@@ -20,34 +20,40 @@
 #header_principal form label{
     display: block;
     font-weight: bold;
+    
 }
 #header_principal form input[type="text"]{
     border: 1px solid #999;
     padding: 5px 10px 5px 10px;
 }   
 #header_principal form button {
-    background-color: #8c9797;
+    background-color: #AB1B29;
     color: #fff;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 11px 5px 11px;
 }
 #galeria{
     position: relative;
     width: 647px;
     height: 307px;
     margin: 21px 0 0 13px;
-    border: 1px solid #666;
-    background-color: rgba(184, 187, 187, 0.5);
+    background-image: url(../assets/bgg.png);
+    color:#875316;
+    font-size: 12px;
+    font-weight: bold;
 }
 #galeria figure{
     position: relative;
     display: inline-block;
     text-align: center;
     margin: 20px 0px 0px 20px;
-    border: 1px dashed #666;
-    background-color: rgba(184, 187, 187, 0.5);
+    border: none;
+    background-color: none;
 }
 #galeria img {
     width: 101px;
     height: 101px;
-    border: 1px solid #666;
+    border: none;
+}
+label {
+    color: #AB1B29 ;
 }
